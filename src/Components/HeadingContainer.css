@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  width: 878px
+}
+
+.heading_wrapper {
+  padding: 56px 0;
+}
+
+.heading_title {
+  color: #f0f3f4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 27px;
+}
+
+.user_actions {
+  display: flex;
+  align-items: center;
+}
+
+.user_status {
+  /* Already a user? */
+
+  position: static;
+  left: 0%;
+  right: 39.94%;
+  top: 10%;
+  bottom: 10%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 13px;
+}
+
+.login_btn {
+  /* Frame 83 */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 29px;
+  border: none;
+
+  /* Primary */
+
+  background: #2b83ea;
+  border-radius: 5px;
+
+  /* Inside Auto Layout */
+  margin: 0px 13px;
+
+  color: #f0f3f4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+}

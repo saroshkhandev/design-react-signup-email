@@ -1,0 +1,158 @@
+.create_account {
+  background: #fff;
+  width: 500px;
+  box-shadow: 5px 0px 50px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  border-radius: 10px;
+}
+
+.heading {
+  padding: 45px 30px 5px 30px;
+  color: #444444;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.create_account_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_input {
+  border: 0;
+  border-bottom: 1.5px solid #ccc6c6;
+  margin: 10px 40px;
+  background: #fff;
+  padding: 10px 0;
+}
+
+.user_input::placeholder {
+  color: #859fc1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.user_input:focus {
+  outline-style: dotted;
+  outline-width: 2px;
+  outline-color: #859fc1;
+  border-radius: 2px;
+}
+
+.user_input:focus,
+.user_input:hover {
+  border-bottom: 2px solid #2b83ea;
+}
+
+.password_container svg {
+  cursor: pointer;
+  width: 20px;
+  right: 8px;
+  top: 8px;
+}
+
+.confirmation_box {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.confirmation {
+  border: 2px solid #f0f3f4;
+  margin-right: 10px;
+}
+
+.confirmation:focus,
+.confirmation:hover {
+  outline: none;
+}
+
+.declaration {
+  color: #000;
+  font-size: 9px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.verify_otp {
+  margin: 5px 40px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+
+  width: 100px;
+  height: 35px;
+
+  /* Primary */
+
+  background: #2b83ea;
+  border-radius: 5px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* identical to box height */
+
+  /* Background */
+
+  color: #f0f3f4;
+}
+
+.terms_conditions {
+  margin: 0 40px;
+  text-align: left;
+  line-height: 0.6;
+}
+
+.tnc_text {
+  font-size: 7px;
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.tnc_text:hover,
+.tnc_text:focus {
+  color: #000;
+  border-bottom: 1px solid #2b83ea;
+}
+
+.highlight_condition {
+  color: #2b83ea;
+}
+
+.password-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 22px;
+  right: 50px;
+  font-size: 14px;
+  color: #859fc1;
+  cursor: pointer;
+}
+
+.password_field {
+  width: 75%;
+}
+
+.password2_field {
+  width: 75%;
+}
+
+
